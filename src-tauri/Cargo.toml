@@ -1,0 +1,28 @@
+[package]
+name = "deepseek-desktop"
+version = "0.1.0"
+description = "Lightweight desktop access to the official DeepSeek chat website"
+edition = "2021"
+rust-version = "1.88"
+license = "MIT"
+repository = "https://github.com/zcx960/deepseekchatdesktop"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2.12.1", default-features = false, features = ["wry", "common-controls-v6"] }
+tauri-plugin-single-instance = "2"
+tauri-plugin-window-state = "2"
+open = "5"
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+strip = true
+panic = "abort"
