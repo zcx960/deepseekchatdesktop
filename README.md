@@ -6,6 +6,10 @@
 
 **macOS Apple Silicon 实测：应用本体 2.37 MiB，DMG 安装包 1.80 MiB。**
 
+[![Build desktop packages](https://github.com/zcx960/deepseekchatdesktop/actions/workflows/build.yml/badge.svg)](https://github.com/zcx960/deepseekchatdesktop/actions/workflows/build.yml)
+
+推送到 `main` 或手动运行 GitHub Actions 后，工作流会构建 Linux、Windows、macOS Intel 和 macOS Apple Silicon 安装包，并将产物保存为 Actions Artifacts。
+
 这是社区制作的独立桌面封装，并非 DeepSeek 官方发布的客户端。
 
 ## 为什么轻量
