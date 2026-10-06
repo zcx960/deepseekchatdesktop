@@ -69,9 +69,6 @@ jobs:
           - name: Windows x64
             artifact: deepseek-desktop-windows-x64
             os: windows-latest
-          - name: macOS Intel
-            artifact: deepseek-desktop-macos-x64
-            os: macos-13
           - name: macOS Apple Silicon
             artifact: deepseek-desktop-macos-arm64
             os: macos-14
