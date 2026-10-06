@@ -9,6 +9,7 @@
 [![Build desktop packages](https://github.com/zcx960/deepseekchatdesktop/actions/workflows/build.yml/badge.svg)](https://github.com/zcx960/deepseekchatdesktop/actions/workflows/build.yml)
 
 推送到 `main` 或手动运行 GitHub Actions 后，工作流会构建 Linux、Windows、macOS Intel 和 macOS Apple Silicon 安装包，并将产物保存为 Actions Artifacts。
+推送 `v*` 版本标签时，工作流还会自动创建 GitHub Release 并附加各平台安装包。
 
 这是社区制作的独立桌面封装，并非 DeepSeek 官方发布的客户端。
 

@@ -9,6 +9,7 @@ A DeepSeek desktop client focused on a small footprint. Built with **Tauri 2, Ru
 [![Build desktop packages](https://github.com/zcx960/deepseekchatdesktop/actions/workflows/build.yml/badge.svg)](https://github.com/zcx960/deepseekchatdesktop/actions/workflows/build.yml)
 
 On every push to `main` or manual workflow run, GitHub Actions builds Linux, Windows, macOS Intel, and macOS Apple Silicon packages and stores them as Actions Artifacts.
+Pushing a `v*` version tag also creates a GitHub Release with the platform installers attached.
 
 This is an independent community wrapper, not an official DeepSeek desktop release.
 
